@@ -1,7 +1,7 @@
 require_dependency "v3/application_controller"
 
 module V3
-  class ArticlesController < ApplicationController
+  class ArticlesController < V3::ApplicationController
     before_action :set_article, only: [:show, :edit, :update, :destroy]
 
     # GET /articles
