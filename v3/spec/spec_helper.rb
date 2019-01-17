@@ -19,6 +19,7 @@ ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path("../dummy_app/config/environment.rb", __FILE__)
 require 'rspec/rails'
 require 'factory_bot_rails'
+require 'faker'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
