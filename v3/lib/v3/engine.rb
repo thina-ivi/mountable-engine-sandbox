@@ -1,4 +1,4 @@
-require 'slim-rails'
+require'slim-rails'
 
 module V3
   class Engine < ::Rails::Engine

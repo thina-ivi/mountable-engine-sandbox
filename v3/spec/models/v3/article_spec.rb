@@ -9,7 +9,7 @@ describe V3::Article do
     expect(article).to be_valid
   end
 
-  it "is not valid with blank title and body" do
+  it "is not valid without title and body" do
     article = V3::Article.new
     expect(article).not_to be_valid
   end
